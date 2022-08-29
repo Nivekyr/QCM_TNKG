@@ -8,7 +8,7 @@
 .home_View{
     margin-top: 10vh;
     margin-bottom: 4vh;
-    margin-left: 20vw;
+    margin-left: 4vw;
     margin-right: 2vw;
     background-color: #FBF9F9;
     height: 86vh;
@@ -95,3 +95,9 @@ span.more_button {
     margin-top: 12vh;
 }
 
+
+@media only screen and (max-width: 1700px) {
+    .home_View {
+        margin-left: 8vw;
+    }
+}
